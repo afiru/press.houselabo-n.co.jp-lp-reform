@@ -1,8 +1,3 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<figure class="sine">
+    <img loading="lazy" src="img/picSine.svg" alt="こんなお悩みありませんか？老朽化のサイン" width="375" height="553">
+</figure>

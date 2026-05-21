@@ -1,8 +1,3 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<figure class="cntSupport">
+    <img loading="lazy" src="img/cntSupport.svg" alt="安心リフォーム×一貫サポートで　ハウスラボの1級建築士が家計の安心に寄り添い心から納得のできるリフォームをサポートします！" width="375" height="193">
+</figure>
