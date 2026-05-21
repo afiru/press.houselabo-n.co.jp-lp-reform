@@ -1,8 +1,12 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<div class="bg_FFFBC7 cta catBtm">
+    <section class="secCatTop">
+        <h2 class="t_center cl_5F161E fw_700 h2CatBtm">まずは無料相談</h2>
+        <p class="t_center cl_5F161E fw_700 txtCatBtm">一級建築士がお話を伺います</p>
+        <figure class="pointCatTop">
+            <img loading="lazy" src="img/pointCatTop.svg" alt="お問合せ/ご相談/現地調査/お見積" width="312" height="72">
+        </figure>
+        <div class="btnCtaLxn">
+            <a class="d_flex j_center ali_center bg_gra cl_fff fw_700 btnCta" href="https://houselabo-n.co.jp/reserve/" target="_blank">資料請求・ご相談</a>
+        </div>
+    </section>
+</div>

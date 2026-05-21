@@ -1,8 +1,3 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<div class="misugosenai">
+    <img loading="lazy" src="img/misugosenai.svg" alt="でも.....見過ごせない物価高のリアルだからこそ補助金を賢く使ういいとこ取りの失敗しないリフォーム" width="375" height="699">
+</div>

@@ -1,8 +1,3 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<figure class="kaiteki">
+    <img loading="lazy" src="img/kaiteki.svg" alt="品質×快適　一級建築士によるリフォームの最適解" width="375" height="243">
+</figure>
