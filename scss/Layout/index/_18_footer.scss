@@ -1,0 +1,64 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+
+.footer {
+    @include mi.marginPercent(375, 67, auto, 0, auto);
+    background: url(../img/footer.webp) no-repeat top center;
+    background-size: 100% auto;
+    position: relative;
+    @include mi.paddingPercent(375, 83, 0, 11, 0);
+}
+
+.toTop {
+    @include mi.ontenerWidth(375, 77);
+    @include mi.marginPercent(375, 0, auto, 0, auto);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9%;
+}
+
+.logoFooter {
+    @include mi.ontenerWidth(375, 200);
+    @include mi.marginPercent(375, 0, auto, 0, auto);
+
+}
+
+.ggmapFooter {
+    @include mi.ontenerWidth(375, 335);
+    @include mi.marginPercent(375, 15, auto, 0, auto);
+    @include mi.kadomaru(10px);
+    position: relative;
+    aspect-ratio: 335 / 200;
+    overflow: hidden;
+
+    iframe {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.txtFooter {
+    @include mi.marginPercent(375, 10, auto, 0, auto);
+    @include mi.fontSizePc(10);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
+
+.copy {
+    aspect-ratio: 375 / 22;
+    @include mi.fontSizePc(10);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}

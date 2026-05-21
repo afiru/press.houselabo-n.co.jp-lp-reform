@@ -1,0 +1,74 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+
+.fixedFooter {
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    background: #fff;
+    @include mi.paddingPercent(375, 13, 0, 12, 0);
+    z-index: 99999;
+}
+
+.btnfixedFooterFx {
+    @include mi.ontenerWidth(375, 338.54);
+    margin: auto;
+}
+
+.btnfixedFooter {
+    @include mi.ontenerWidth(338.54, 162.76);
+    aspect-ratio: 162.76 / 47.53;
+    @include mi.kadomaru(36.5px);
+}
+
+.icon {
+    @include mi.ontenerWidth(162.76, 17);
+    @include mi.marginPercent(162.76, 0, 5, 0, 0);
+}
+
+.btnfixedFooter01 {
+    box-shadow: 0px 5px 0px #700025;
+}
+
+.btnfixedFooter01:hover {
+    box-shadow: 0px 0px 0px #700025;
+    opacity: 1;
+    transform: translateY(5px);
+}
+
+.btnfixedFooter02 {
+    box-shadow: 0px 5px 0px #02681B;
+}
+
+.btnfixedFooter02:hover {
+    box-shadow: 0px 0px 0px #02681B;
+    opacity: 1;
+    transform: translateY(5px);
+}
+
+.lastFixedFooter {
+    @include mi.marginPercent(375, 10, auto, 0, auto);
+    @include mi.ontenerWidth(375, 344);
+}
+
+.h4LastFixedFooter {
+    @include mi.ontenerWidth(344, 90);
+    aspect-ratio: 90 / 21;
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(120);
+    @include mi.letterSpacing(0);
+    @include mi.kadomaru(4px);
+}
+
+.txtLastFixedFooter {
+    @include mi.marginPercent(344, 0, 0, 0, 4);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(120);
+    @include mi.letterSpacing(0);
+}

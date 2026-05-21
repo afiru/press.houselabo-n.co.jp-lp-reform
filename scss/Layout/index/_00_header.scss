@@ -1,0 +1,44 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.bgHouseLab {
+    background: url(../img/bgHouseLab.png) no-repeat center center;
+    background-size: auto 100vh;
+    background-attachment: fixed;
+}
+
+.spWap {
+    width: 375px;
+    margin: 0 0 0 auto;
+    background: #fff;
+
+    @include mi.mq(sp) {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.header {
+    @include mi.paddingPercent(375, 8, 0, 10, 0);
+}
+
+.headerFx {
+    @include mi.ontenerWidth(375, 341);
+    margin: auto;
+}
+
+.logoHeader {
+    @include mi.ontenerWidth(341, 144);
+}
+
+.telHeader {
+    @include mi.ontenerWidth(341, 42);
+}
