@@ -1,11 +1,96 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.case1 {
+    margin-top: 4.86%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h2Case {
+    @include mi.ontenerWidth(375, 143.75);
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cntCaseLxn {
+    margin-top: 6.06%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    @include mi.ontenerWidth(375, 344);
+}
+.h3CntCase {
+    @include mi.ontenerWidth(344, 143);
+    @include mi.fontSizePc(18);
+    @include mi.lineheightP(200);
+    @include mi.letterSpacing(0);
+}
+.tabCntCase {
+    margin-top: 1.06%;
+    margin-bottom: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    width: fit-content;
+    img {
+        width: 100%;
+    }
+}
+.txtCase {
+    margin-top: 2.81%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
+.tabsLxnCase {
+    margin-top: 6%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabTabsLxnCase {
+    display: flex;
+    justify-content: space-between;
+}
+.TabCase {
+    padding: 4.03% 4.06% 0% 4.06%;
+    @include mi.ontenerWidth(344, 166);
+    border-radius: 4px 4px 0 0;
+    aspect-ratio: 166 /47;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tabMainCase01 {
+    margin: -2.3% auto 0 auto;
+    padding: 5.23% 0% 9.5% 0%;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    @include mi.kadomaru(8px);
+}
+.tabMainCase01Lxn {
+    width: 90.73%;
+    margin: auto;
+}
+.photoTabMainCase01 {
+    width: 100%;
+    @include mi.kadomaru(4px);
+}
+.cntTabMainCase01 {
+    margin-top: 4.5%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.jstabMainCase01_02 {
+    display: none;
 }

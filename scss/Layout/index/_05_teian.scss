@@ -1,11 +1,28 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.taian {
+    @include mi.marginPercent(375, 0, auto, 0, auto);
+    padding: 6% 0% 6% 0%;
+    position: relative;
+}
+.txtTaiken {
+    @include mi.ontenerWidth(375, 280);
+    margin: auto;
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    font-weight: 700;
+}
+.picTaian {
+    @include mi.ontenerWidth(375, 62);
+    position: absolute;
+    bottom: -17%;
+    right: 7%;
+    z-index: 1;
 }

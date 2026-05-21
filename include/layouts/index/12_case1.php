@@ -12,8 +12,8 @@
         </p>
         <div class="tabsLxnCase">
             <ul class="tabTabsLxnCase">
-                <li class="d_flex j_start row bg_6B8A2E cl_fff jsTabCase01" data-open=".jstabMainCase01_01">Before</li>
-                <li class="d_flex j_start row bg_F29800 cl_fff jsTabCase01" data-open=".jstabMainCase01_02">After</li>
+                <li class="d_flex j_start row bg_6B8A2E cl_fff TabCase jsTabCase01" data-open=".jstabMainCase01_01">Before</li>
+                <li class="d_flex j_start row bg_F29800 cl_fff TabCase jsTabCase01" data-open=".jstabMainCase01_02">After</li>
             </ul>
             <div class="bg_6B8A2E tabMainCase01 jstabMainCase01 jstabMainCase01_01">
                 <div class="tabMainCase01Lxn">

@@ -1,14 +1,17 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 
 .footer {
-    @include mi.marginPercent(375, 67, auto, 0, auto);
+    margin-top: 25.86%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
     background: url(../img/footer.webp) no-repeat top center;
     background-size: 100% auto;
     position: relative;
@@ -27,7 +30,6 @@ LAYOUT
 .logoFooter {
     @include mi.ontenerWidth(375, 200);
     @include mi.marginPercent(375, 0, auto, 0, auto);
-
 }
 
 .ggmapFooter {

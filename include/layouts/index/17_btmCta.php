@@ -1,8 +1,8 @@
-<div class="bg_FFFBC7 cta catBtm">
+<div class=" cta catBtm">
     <section class="secCatTop">
-        <h2 class="t_center cl_5F161E fw_700 h2CatBtm">まずは無料相談</h2>
-        <p class="t_center cl_5F161E fw_700 txtCatBtm">一級建築士がお話を伺います</p>
-        <figure class="pointCatTop">
+        <h2 class="t_center cl_5F161E fw_700 h2CatBtm">まずは無料ご相談から</h2>
+        <p class="t_center cl_5F161E fw_700 txtCatBtm">お気軽にお問合せください</p>
+        <figure class="pointCatTop pointCatTop02">
             <img loading="lazy" src="img/pointCatTop.svg" alt="お問合せ/ご相談/現地調査/お見積" width="312" height="72">
         </figure>
         <div class="btnCtaLxn">

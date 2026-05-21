@@ -1,4 +1,4 @@
-<div class="bg_FFFBC7 cta catTop">
+<div class="cta catTop">
     <section class="secCatTop">
         <h2 class="t_center cl_5F161E fw_700 h2CatTop">まずは無料相談</h2>
         <p class="t_center cl_5F161E fw_700 txtCatTop">一級建築士がお話を伺います</p>

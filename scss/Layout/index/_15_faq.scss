@@ -1,11 +1,73 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.faq {
+    @include mi.marginPercent(375, 20, auto, 0, auto);
+}
+.h2Faq {
+    width: 92%;
+    margin: auto;
+}
+.ulFaq {
+    @include mi.marginPercent(375, 6, auto, 0, auto);
+    @include mi.ontenerWidth(375, 344);
+}
+.liFaq {
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(344, 2, auto, 0, auto);
+    }
+}
+.titleLiFaq {
+}
+.titleLiFaqFx {
+    width: 93.82%;
+    margin: 0 auto;
+    padding: 2.3% 0%;
+}
+.h3TitleLiFaqFx {
+    width: 5%;
+    @include mi.fontSizePc(15);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
+.h4TitleLiFaqFx {
+    width: 84%;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(120);
+    @include mi.letterSpacing(0);
+}
+.iconTitleLiFaqFx {
+    width: 4%;
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+    will-change: auto;
+}
+.titleLiFaq.on .iconTitleLiFaqFx {
+    transform: rotate(0deg);
+}
+//
+.cntLiFaq {
+    @include mi.marginPercent(344, 18, auto, 0, auto);
+    display: none;
+}
+.answerLiFaqFx {
+    width: 91.09%;
+    margin: auto;
+}
+.h4AnswerLiFaqFx {
+    @include mi.ontenerWidth(334, 12);
+    @include mi.fontSizePc(15);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
+.txtAnswerLiFaqFx {
+    @include mi.ontenerWidth(334, 316);
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(200);
+    @include mi.letterSpacing(0);
 }

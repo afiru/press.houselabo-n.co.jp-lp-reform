@@ -1,11 +1,47 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.catTop {
+    padding: 6.46% 0% 9.33% 0%;
+    background: rgba(255, 251, 199, 0.5);
+}
+.secCatTop {
+    @include mi.ontenerWidth(375, 344);
+    margin: auto;
+}
+.h2CatTop {
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
+.txtCatTop {
+    @include mi.marginPercent(344, 0, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
+.pointCatTop {
+    margin-top: 3.52%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    @include mi.ontenerWidth(344, 312);
+}
+.btnCtaLxn {
+    @include mi.marginPercent(344, 19, auto, 0, auto);
+    @include mi.ontenerWidth(344, 344);
+}
+.btnCta {
+    background: linear-gradient(180deg, #c2332e 0%, #5c1816 100%);
+    box-shadow: 0 4px 4px 0 rgba(147, 90, 0, 0.25);
+    @include mi.kadomaru(8px);
+    aspect-ratio: 344/64;
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
 }
