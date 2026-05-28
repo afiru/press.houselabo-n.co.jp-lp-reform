@@ -13,7 +13,7 @@
             未来の暮らしを想像したリフォーム計画は設備の使いやすさだけでなく、住みやすさも改善。充実した暮らしを送ることが出来ます。
         </p>
         <figure class="imgRehome">
-            <img loading="lazy" src="img/imgRehome.svg" alt="ハウスラボのご提案するリフォーム一級建築士だからできること" width="312" height="265.12">
+            <img loading="lazy" src="img/imgRehome.svg" alt="ハウスラボのご提案するリフォーム１級建築士だからできること" width="312" height="265.12">
         </figure>
     </div>
 </div>

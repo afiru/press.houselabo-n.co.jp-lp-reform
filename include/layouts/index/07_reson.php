@@ -6,7 +6,7 @@
         <ul class="ulReson">
             <li class="liReson">
                 <h3 class="h3Reson">
-                    <img loading="lazy" src="img/h3Reson01.svg" alt="一級建築士による　将来を見据えた最適プラン" width="312" height="77">
+                    <img loading="lazy" src="img/h3Reson01.svg" alt="１級建築士による　将来を見据えた最適プラン" width="312" height="77">
                 </h3>
                 <figure class="photoReson">
                     <img loading="lazy" src="img/photoReson01.png" alt="" width="312" height="189">
@@ -42,7 +42,7 @@
         </ul>
     </div>
     <figure class="picSosonBtm">
-        <img loading="lazy" src="img/picSosonBtm.svg" alt="一級建築士・補助金・自社施工・アフターケア" width="344" height="344">
+        <img loading="lazy" src="img/picSosonBtm.svg" alt="１級建築士・補助金・自社施工・アフターケア" width="344" height="344">
     </figure>
     <p class="t_center cl_571C1C fw_700 txtset txtReson">
         古くなったお住まいを<br>永く安心快適に暮らすために<br><span class="cl_F39800">まずはご相談ください</span>
